@@ -1,0 +1,250 @@
+*{background-color: rgb(218, 244, 235);}
+
+header{
+    text-decoration: none;
+display:flex;
+width: 100%;
+background-color: rgb(218, 244, 235);
+top: 0;
+position: fixed;
+padding: 10px;
+font-style:inherit;
+z-index: 99;
+}
+
+.navbar {
+    display: flex;
+list-style-type: none;
+text-decoration: none;
+overflow: hidden;
+padding: 0;
+margin: 0;}
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: rgb(34, 109, 156);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+    
+  }
+  /* voor de button mijn reis  */
+  .dropdown .droptussen {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color:  rgb(34, 109, 156);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  /* voor als je met je muis over de buttons heen gaat */
+  .navbar a:hover, .dropdown:hover .droptussen {
+    background-color: rgb(34, 109, 156) ;
+    color: white;
+  }
+  
+  /* voor de dropdown (het vakje waar die in zit) */
+  .dropdown-inhoud {
+    display: none;
+    position: absolute;
+    list-style-type: none;
+
+  }
+  
+  .dropdown-inhoud a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    margin-left: -20px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-inhoud a:hover {
+    background-color: rgb(34, 109, 156) ;
+    color: white;
+  }
+  
+  .dropdown:hover .dropdown-inhoud {
+    display: block;
+  }
+  
+  main
+  {margin-top: 7%;}
+  
+  .Home
+    {margin-bottom: 100px;
+    margin-left: 100px;
+    margin-left: 100px;}
+
+  h1{
+    text-align: center;
+  }
+
+  .img{
+    float: right;
+    width: 30%;
+    margin-left: 20%;
+    border: 10px solid white;
+    border-bottom: 37px solid white;
+    box-shadow: 5px 5px rgb(84, 94, 105) ;
+  
+  }
+
+  .text
+  { font-size: 100%;
+    text-align: center;
+    height: auto;
+    width: auto;
+
+}
+
+ 
+  .position {
+    position: absolute;
+    align-items: center;
+    margin-inline: 20%; 
+    vertical-align: middle;
+    margin-top: 2%;
+  }
+
+
+.container{
+  position: relative;
+  width: 90%;
+
+ 
+}
+
+.container .map{
+  width: 100%;
+  height: auto;
+  
+}
+
+.container .btn1{
+ position: absolute;
+ top: 93%;
+ left: 67%;
+ background-color: transparent;
+ border: 3px solid rgb(41, 119, 167);
+ color: #00132C;
+ width: 10%;
+ height: 5%;
+ 
+}
+
+.container .btn2{
+  position: absolute;
+  top: 55%;
+  left: 65%;
+  background-color: transparent;
+ border: 3px solid rgb(41, 119, 167);
+ color: #00132C;
+ width: 10%;
+ height: 5%;
+  
+ }
+
+ .container .btn3{
+  position: absolute;
+  top: 28%;
+  left: 75%;
+  background-color: transparent;
+ border: 3px solid rgb(41, 119, 167);
+ color: #00132C;
+ width: 10%;
+ height: 5%;
+  
+ }
+
+ .btn3:hover {
+  box-shadow: 0 10px 12px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+ 
+
+
+.fotobox1{
+  margin-top: 32%;
+  align-items: center; 
+  display: flex;
+  justify-content: center;
+    
+}
+
+.img1{
+  width: 18%;
+  margin-left: 2%;
+  margin-right: 2%;
+  border: 10px solid white;
+    border-bottom: 37px solid white;
+    box-shadow: 5px 5px rgb(84, 94, 105) ;
+}
+
+.fotobox2{
+margin-top: 5%;
+align-items: center; 
+display: flex;
+justify-content: center;
+height: auto;
+width: auto;
+}
+
+.fotobox1ellakandy{
+  margin-top: 36%;
+  align-items: center; 
+  display: flex;
+  justify-content: center;
+    
+}
+
+.fotosarah {
+  float: left;
+  width: 35%;
+  border-radius: 300px;
+}
+
+
+
+
+.textovermij {
+  text-align: center;
+    height: auto;
+    padding: 0 300px
+}
+
+.titelovermij{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 200px;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  margin-left: 5%;
+  color: rgb(62, 129, 171);
+
+}
+
+.povermij{
+  padding-top: 35%;
+  padding-left: 30%;
+  width: 60%;
+  font-size: 23px;
+  color: rgb(43, 93, 125);
+}
+
+
+
+
+
+
