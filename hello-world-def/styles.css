@@ -19,7 +19,8 @@ list-style-type: none;
 text-decoration: none;
 overflow: hidden;
 padding: 0;
-margin: 0;}
+margin: 0;
+}
   
   .navbar a {
     float: left;
@@ -29,59 +30,17 @@ margin: 0;}
     padding: 14px 16px;
     text-decoration: none;
   }
-  
-  .dropdown {
-    float: left;
-    overflow: hidden; 
-  }
 
-  /* voor de button mijn reis  */
-  .dropdown .droptussen {
-    font-size: 16px;  
-    border: none;
-    outline: none;
-    color:  rgb(34, 109, 156);
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-  }
-  
   /* voor als je met je muis over de buttons heen gaat */
-  .navbar a:hover, .dropdown:hover .droptussen {
+  .navbar a:hover {
     background-color: rgb(34, 109, 156) ;
     color: white;
   }
-  
-  /* voor de dropdown (het vakje waar die in zit) */
-  .dropdown-inhoud {
-    display: none;
-    position: absolute;
-    list-style-type: none;
-    background-color:  rgb(218, 244, 235);
 
-
+  .geenhover{
+    
   }
-  
-  .dropdown-inhoud a {
-    float: none;
-    color:  rgb(34, 109, 156);
-    padding: 12px 16px;
-    margin-left: -20px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-  
-  .dropdown-inhoud a:hover {
-    background-color: rgb(34, 109, 156) ;
-    color: white;
-  }
-  
-  .dropdown:hover .dropdown-inhoud {
-    display: block;
-  }
-  
+   
     /* ruimte tussen de titel en de navigatie balk */
   main {
     margin-top: 7%;}
@@ -114,12 +73,12 @@ margin: 0;}
     width: auto;
 }
 
-  .position {
-    position: absolute;
-    align-items: center;
-    margin-inline: 20%; 
-    vertical-align: middle;
-    margin-top: 2%;
+ .position {
+   position: absolute;
+   align-items: center;
+   margin-inline: 20%; 
+   vertical-align: middle;
+   margin-top: 2%;
   }
 
 
@@ -136,13 +95,15 @@ margin: 0;}
 
 .container .btn1{
  position: absolute;
- top: 92%;
+ top: 94%;
  left: 67%;
  background-color: transparent;
+ text-decoration: none;
+ text-align: center;
  border: 3px solid rgb(41, 119, 167);
  color: #00132C;
- width: 8%;
- height: 5%;
+ width: 11%;
+ height: 2%;
 }
 
 .container .btn2{
@@ -150,21 +111,25 @@ margin: 0;}
   top: 55%;
   left: 65%;
   background-color: transparent;
+  text-decoration: none;
+  text-align: center;
  border: 3px solid rgb(41, 119, 167);
  color: #00132C;
  width: 8%;
- height: 5%;
+ height: 2%;
  }
 
  .container .btn3{
   position: absolute;
   top: 28%;
-  left: 75%;
+  left: 73%;
   background-color: transparent;
+  text-decoration: none;
+  text-align: center;
  border: 3px solid rgb(41, 119, 167);
  color: #00132C;
- width: 8%;
- height: 5%;  
+ width: 11%;
+ height: 2%;  
  }
 
  /*schaduw, 2e item staat voor hoe veel pixels eronder, 3e item staat voor de grootte van de schaduw */
@@ -240,7 +205,6 @@ width: auto;
   color: rgb(55, 113, 153);
 }
 
-
 .povermij{
   padding-top: 35%;
   padding-left: 30%;
@@ -248,7 +212,6 @@ width: auto;
   font-size: 23px;
   color: rgb(43, 93, 125);
 }
-
 
 .plaatjes{
   width: 30%; 
@@ -275,7 +238,59 @@ width: auto;
   }
 
   
+/* Ik heb deze code erin gelaten om te laten zien hoe ik mijn originele en werkende dropdown gestyled had met css
 
+.dropdown {
+    float: left;
+    overflow: hidden; 
+  }
+
+    voor de button mijn reis 
+  .dropdown .droptussen {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color:  rgb(34, 109, 156);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  voor de dropdown (het vakje waar die in zit) 
+  .dropdown-inhoud {
+    display: none;
+    position: absolute;
+    list-style-type: none;
+    background-color:  rgb(218, 244, 235);
+
+
+  }
+  
+  .dropdown-inhoud a {
+    float: none;
+    color:  rgb(34, 109, 156);
+    padding: 12px 16px;
+    margin-left: -20px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-inhoud a:hover {
+    background-color: rgb(34, 109, 156) ;
+    color: white;
+  }
+  
+  .dropdown:hover .dropdown-inhoud {
+    display: block;
+  }
+
+  .navbar a:hover, .dropdown:hover .droptussen {
+    background-color: rgb(34, 109, 156) ;
+    color: white;
+  }
+  */
 
 
 
