@@ -1,5 +1,6 @@
-*{background-color: rgb(218, 244, 235);}
+body{background-color: rgb(218, 244, 235);}
 
+/* voor de navigatiebalk  */
 header{
     text-decoration: none;
 display:flex;
@@ -31,9 +32,9 @@ margin: 0;}
   
   .dropdown {
     float: left;
-    overflow: hidden;
-    
+    overflow: hidden; 
   }
+
   /* voor de button mijn reis  */
   .dropdown .droptussen {
     font-size: 16px;  
@@ -57,12 +58,14 @@ margin: 0;}
     display: none;
     position: absolute;
     list-style-type: none;
+    background-color:  rgb(218, 244, 235);
+
 
   }
   
   .dropdown-inhoud a {
     float: none;
-    color: black;
+    color:  rgb(34, 109, 156);
     padding: 12px 16px;
     margin-left: -20px;
     text-decoration: none;
@@ -79,8 +82,9 @@ margin: 0;}
     display: block;
   }
   
-  main
-  {margin-top: 7%;}
+    /* ruimte tussen de titel en de navigatie balk */
+  main {
+    margin-top: 7%;}
   
   .Home
     {margin-bottom: 100px;
@@ -89,8 +93,11 @@ margin: 0;}
 
   h1{
     text-align: center;
+    font-size: 400%;
+    font-family: 'Rethink Sans', sans-serif;
   }
 
+    /* kader van de plaatjes */
   .img{
     float: right;
     width: 30%;
@@ -98,7 +105,6 @@ margin: 0;}
     border: 10px solid white;
     border-bottom: 37px solid white;
     box-shadow: 5px 5px rgb(84, 94, 105) ;
-  
   }
 
   .text
@@ -106,10 +112,8 @@ margin: 0;}
     text-align: center;
     height: auto;
     width: auto;
-
 }
 
- 
   .position {
     position: absolute;
     align-items: center;
@@ -122,26 +126,23 @@ margin: 0;}
 .container{
   position: relative;
   width: 90%;
-
- 
 }
 
+ /* positie van kaart srilanka */
 .container .map{
   width: 100%;
   height: auto;
-  
 }
 
 .container .btn1{
  position: absolute;
- top: 93%;
+ top: 92%;
  left: 67%;
  background-color: transparent;
  border: 3px solid rgb(41, 119, 167);
  color: #00132C;
- width: 10%;
+ width: 8%;
  height: 5%;
- 
 }
 
 .container .btn2{
@@ -151,9 +152,8 @@ margin: 0;}
   background-color: transparent;
  border: 3px solid rgb(41, 119, 167);
  color: #00132C;
- width: 10%;
+ width: 8%;
  height: 5%;
-  
  }
 
  .container .btn3{
@@ -163,24 +163,20 @@ margin: 0;}
   background-color: transparent;
  border: 3px solid rgb(41, 119, 167);
  color: #00132C;
- width: 10%;
- height: 5%;
-  
+ width: 8%;
+ height: 5%;  
  }
 
- .btn3:hover {
-  box-shadow: 0 10px 12px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+ /*schaduw, 2e item staat voor hoe veel pixels eronder, 3e item staat voor de grootte van de schaduw */
+ .btn3:hover, .btn1:hover, .btn2:hover {
+  box-shadow: 0 10px 12px 0 rgba(0,0,0,0.24);
 }
 
- 
-
-
 .fotobox1{
-  margin-top: 32%;
+  margin-top: 35%;
   align-items: center; 
   display: flex;
-  justify-content: center;
-    
+  justify-content: center;   
 }
 
 .img1{
@@ -190,6 +186,10 @@ margin: 0;}
   border: 10px solid white;
     border-bottom: 37px solid white;
     box-shadow: 5px 5px rgb(84, 94, 105) ;
+}
+
+.img1:hover{
+ transform: translateY(-2%);
 }
 
 .fotobox2{
@@ -205,8 +205,7 @@ width: auto;
   margin-top: 36%;
   align-items: center; 
   display: flex;
-  justify-content: center;
-    
+  justify-content: center;  
 }
 
 .fotosarah {
@@ -214,9 +213,6 @@ width: auto;
   width: 35%;
   border-radius: 300px;
 }
-
-
-
 
 .textovermij {
   text-align: center;
@@ -229,11 +225,21 @@ width: auto;
   font-size: 200px;
   background-color: transparent;
   position: absolute;
-  top: 0;
-  margin-left: 5%;
-  color: rgb(62, 129, 171);
-
+  top: 2%;
+  margin-left: 6%;
+  color: rgb(35, 71, 93);
 }
+
+.titelovermij2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 200px;
+  background-color: transparent;
+  position: absolute;
+  top: 1%;
+  margin-left: 5%;
+  color: rgb(55, 113, 153);
+}
+
 
 .povermij{
   padding-top: 35%;
@@ -242,6 +248,33 @@ width: auto;
   font-size: 23px;
   color: rgb(43, 93, 125);
 }
+
+
+.plaatjes{
+  width: 30%; 
+}
+
+.titelweetjes{
+  margin-bottom: 5%;
+}
+
+.plaatjesbox {
+  text-align: center; 
+}
+.weetjestext{
+  text-align: center;
+  list-style-type: none;
+  margin-bottom: 7%;
+  }
+
+  .verticaal{
+    background-color: rgb(140, 171, 194);
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-bottom: 2%;
+  }
+
+  
 
 
 
